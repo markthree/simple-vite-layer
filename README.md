@@ -6,6 +6,7 @@
 
 - [unocss](https://github.com/unocss/unocss)
 - [@vitejs/plugin-vue](https://github.com/vitejs/vite-plugin-vue)
+- [unplugin-auto-import](https://github.com/antfu/unplugin-auto-import)
 - [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components)
 
 <br />

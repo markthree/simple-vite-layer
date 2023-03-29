@@ -2,11 +2,8 @@
   "name": "simple-vite-layer",
   "version": "0.0.2",
   "description": "simple vite layer",
-  "files": [
-    "types",
-    "vite.config.ts",
-    "!types/components.d.ts"
-  ],
+  "type": "module",
+  "main": "vite.config.mjs",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
@@ -17,6 +14,9 @@
     "vite",
     "layer",
     "simple"
+  ],
+  "files": [
+    "vite.config.mjs"
   ],
   "author": {
     "name": "markthree",
@@ -37,6 +37,7 @@
     "@vitejs/plugin-vue": "^4.1.0",
     "@vitejs/plugin-vue-jsx": "^3.0.1",
     "unocss": "^0.50.6",
+    "unplugin-auto-import": "^0.15.2",
     "unplugin-vue-components": "^0.24.1"
   }
 }
