@@ -1,6 +1,6 @@
 {
   "name": "simple-vite-layer",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "simple vite layer",
   "files": [
     "vite.config.ts"
