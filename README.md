@@ -31,6 +31,12 @@ export default Layers({
 });
 ```
 
+```ts
+// src/main.ts
+import "uno.css";
+// ... other content
+```
+
 <br />
 
 ## License
