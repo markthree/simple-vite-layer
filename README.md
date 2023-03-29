@@ -5,6 +5,10 @@ framework
 
 <br />
 
+power by [vite-layers](https://github.com/markthree/vite-layers)
+
+<br />
+
 ## Integration
 
 - [unocss](https://github.com/unocss/unocss)
@@ -51,7 +55,7 @@ import "uno.css";
 
 If you are using TS and there is `tsconfig.node.json`, you need to add types
 
-```json
+```json5
 {
   "compilerOptions": {
     "types": ["vite"] // add vite
