@@ -1,0 +1,37 @@
+{
+  "name": "simple-vite-layer",
+  "version": "0.0.0",
+  "description": "simple vite layer",
+  "files": [
+    "vite.config.ts"
+  ],
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "release": "bumpp --commit --push --tag && npm publish"
+  },
+  "keywords": [
+    "vite",
+    "layer",
+    "simple"
+  ],
+  "author": {
+    "name": "markthree",
+    "email": "1801982702@qq.com",
+    "url": "https://github.com/markthree"
+  },
+  "license": "MIT",
+  "bugs": {
+    "email": "1801982702@qq.com",
+    "url": "https://github.com/markthree/simple-vite-layer/issues"
+  },
+  "devDependencies": {
+    "vite": "^4.2.1"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "unocss": "^0.50.6",
+    "vue": "^3.2.47"
+  }
+}
