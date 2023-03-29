@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "simple vite layer",
   "files": [
-    "vite.config.ts"
+    "types",
+    "vite.config.ts",
+    "!types/components.d.ts"
   ],
   "scripts": {
     "dev": "vite dev",
@@ -28,11 +30,13 @@
   },
   "devDependencies": {
     "bumpp": "^9.0.0",
-    "vite": "^4.2.1"
+    "vite": "^4.2.1",
+    "vue": "^3.2.47"
   },
   "dependencies": {
     "@vitejs/plugin-vue": "^4.1.0",
+    "@vitejs/plugin-vue-jsx": "^3.0.1",
     "unocss": "^0.50.6",
-    "vue": "^3.2.47"
+    "unplugin-vue-components": "^0.24.1"
   }
 }

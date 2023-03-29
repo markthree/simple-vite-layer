@@ -1,3 +1,3 @@
 <template>
-    <div class="text-red">hello</div>
+    <Hello />
 </template>

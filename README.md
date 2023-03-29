@@ -2,10 +2,11 @@
 
 <br />
 
-## Features
+## Integration
 
-- vue
-- unocss
+- [unocss](https://github.com/unocss/unocss)
+- [@vitejs/plugin-vue](https://github.com/vitejs/vite-plugin-vue)
+- [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components)
 
 <br />
 
@@ -14,7 +15,7 @@
 ### install
 
 ```shell
-npm i simple-vite-layer vite-layers -D
+npm i vue simple-vite-layer vite-layers -D
 ```
 
 ### configuration
