@@ -9,7 +9,7 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    Counter: typeof import('./../src/components/Counter.vue')['default']
-    Hello: typeof import('./../src/components/Hello.vue')['default']
+    Counter: typeof import('./../components/Counter.vue')['default']
+    Hello: typeof import('./../components/Hello.vue')['default']
   }
 }

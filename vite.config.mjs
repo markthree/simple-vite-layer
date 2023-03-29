@@ -12,11 +12,11 @@ export default defineConfig({
     Unocss(),
     AutoImport({
       dirs: ["./src/composables"],
-      dts: "./types/auto-imports.d.ts",
+      dts: "./src/types/auto-imports.d.ts",
       imports: ["pinia", "vue-router", "vue"],
     }),
     Components({
-      dts: "./types/components.d.ts",
+      dts: "./src/types/components.d.ts",
     }),
   ],
 });
