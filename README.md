@@ -1,5 +1,8 @@
 # simple-vite-layer
 
+Integrate the vue plugin of the vite community, a vite layer that looks like a
+framework
+
 <br />
 
 ## Integration
@@ -8,6 +11,13 @@
 - [@vitejs/plugin-vue](https://github.com/vitejs/vite-plugin-vue)
 - [unplugin-auto-import](https://github.com/antfu/unplugin-auto-import)
 - [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components)
+
+<br />
+
+## Playground
+
+👉
+[starter StackBlitz](https://stackblitz.com/github.com/markthree/simple-vite-layer-starter)
 
 <br />
 
@@ -35,6 +45,19 @@ export default Layers({
 // src/main.ts
 import "uno.css";
 // ... other content
+```
+
+### ts
+
+If you are using TS and there is `tsconfig.node.json`, you need to add types
+
+```json
+{
+  "compilerOptions": {
+    "types": ["vite"] // add vite
+    // ...other content
+  }
+}
 ```
 
 <br />
