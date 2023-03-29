@@ -1,6 +1,6 @@
 {
   "name": "simple-vite-layer",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "simple vite layer",
   "type": "module",
   "main": "vite.config.mjs",
